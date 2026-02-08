@@ -19,6 +19,26 @@ Demonstrate hands-on cloud security skills including audit logging, threat detec
 
 <img width="1247" height="527" alt="image" src="https://github.com/user-attachments/assets/5d59b404-aad7-4003-a441-ba5d57efde00" />
 
+Roles & Access Model
+
+Root Account
+
+Used only for initial account and CloudTrail setup
+
+Not used for operational or monitoring activities
+
+Root usage is treated as a security incident
+
+SOC Administrator (IAM User)
+
+Performs all detection configuration
+
+Investigates alerts and CloudTrail logs
+
+Simulates misconfigurations and attack scenarios
+
+Follows least-privilege access model
+
 
 
 
